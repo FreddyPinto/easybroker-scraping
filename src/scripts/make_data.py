@@ -55,7 +55,7 @@ telefonos = []
 sitios_web = []
 
 # Itera sobre las páginas
-for i in range(1, 2):  # Ajusta el rango según sea necesario
+for i in range(1, 342):  # Ajusta el rango según sea necesario
     # Navega a la página
     driver.get(f'https://www.easybroker.com/agent/agencies/search?page={i}&reset_page=true')
 
